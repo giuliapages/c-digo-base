@@ -1,18 +1,108 @@
 body {
-    background-color: #1b1b1b;
-    color: white;
+    background-color: #121212;
+    color: #eaeaea;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
+/* centralizar conteudo */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* título principal */
 h1 {
-    color: orange;
+    color: #ff8800;
+    margin-bottom: 10px;
 }
 
+/* subtítulo */
+h2 {
+    color: #ffcc66;
+    margin-top: 30px;
+}
+
+/* estilo da lista */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* cards das builds */
+li {
+    background-color: #1e1e1e;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+/* efeito quando passamos o mouse */
+li:hover {
+    background-color: #2a2a2a;
+}
+
+/* links */
 a {
     color: lightsalmon;
     text-decoration: none;
+    margin-left: 8px;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.card {
+    background-color: #1e1e1e;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.card:hover {
+    background-color: #2a2a2a;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.tags {
+    margin-bottom: 10px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-right: 5px;
+    background-color: #333;
+}
+
+/* cores por tipo */
+.minion {
+    background-color: #5b2c6f;
+}
+
+.melee {
+    background-color: #7d6608;
+}
+
+.afk {
+    background-color: #2874a6;
+}
+
+.walking {
+    background-color: #8b4513;
+}
+
+.links a {
+    margin-right: 10px;
 }
