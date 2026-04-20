@@ -31,16 +31,17 @@ ul {
 }
 
 /* cards das builds */
-li {
+.card {
     background-color: #1e1e1e;
     padding: 15px;
     margin-bottom: 12px;
     border-radius: 10px;
     transition: 0.2s;
+    list-style: none;
 }
 
 /* efeito quando passamos o mouse */
-li:hover {
+.card:hover {
     background-color: #2a2a2a;
 }
 
@@ -53,14 +54,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-.card {
-    background-color: #1e1e1e;
-    padding: 15px;
-    margin-bottom: 12px;
-    border-radius: 10px;
-    transition: 0.2s;
 }
 
 .card:hover {
@@ -99,8 +92,32 @@ a:hover {
     background-color: #2874a6;
 }
 
-.walking {
+.walking-simulator {
     background-color: #8b4513;
+}
+
+.elementalxchaos {
+    background-color: #8d249b;
+}
+
+.ranged {
+    background-color: #117a65;
+}
+
+.auto-bomber {
+    background-color: #a93226;
+}
+
+.five-way {
+    background-color: #bd4d98;
+}
+
+.elemental {
+    background-color: #581ae9;
+}
+
+.mapper {
+    background-color: #36b0e0;
 }
 
 .links a {
