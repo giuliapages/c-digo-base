@@ -123,3 +123,38 @@ a:hover {
 .links a {
     margin-right: 10px;
 }
+
+.subtitle {
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.home-buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.home-card {
+    flex: 1;
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.2s;
+    display: block;
+}
+
+.home-card span {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #bbb;
+}
+
+.home-card:hover {
+    background-color: #2a2a2a;
+    transform: scale(1.03);
+}
