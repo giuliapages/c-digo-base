@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Farms - BahPOE</title>
@@ -7,8 +8,9 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 
-<header>
+<body>
 
+<header>
     <div class="logo">
         <a href="../index.html">BahPOE</a>
     </div>
@@ -18,45 +20,122 @@
         <a href="../builds/index.html">Builds</a>
         <a href="../farms/index.html">Farms</a>
     </nav>
-
 </header>
-
-<body>
 
 <div class="container">
 
     <h1>Farms</h1>
 
-    <li class="card">
+    <div class="card farm-card">
 
-    <div class="title">Legion Speed Farm</div>
+        <!-- LADO ESQUERDO -->
 
-    <div class="tags">
-        <span class="tag speed">Speed</span>
-        <span class="tag high">High Profit</span>
+        <div class="card-main">
+            <h3>Legion Speed Farm</h3>
+
+            <div class="tags">
+                <span class="tag speed">Speed</span>
+                <span class="tag profit">High Profit</span>
+            </div>
+
+            <p class="requirements">
+                Recomendado para builds com:
+                <span class="tag mobility">Alta Mobilidade</span>
+                <span class="tag clear">Clear Speed</span>
+                <span class="tag squishy">Squishy/Frágil</span>
+            </p>
+
+            <p class="description">
+                Farm de Legion, exige movimentação rápida e dano em área.
+                Super recomendado ter Headhunter
+            </p>
+
+            <a href="https://poeplanner.com/a/6JxE" target="_blank" rel="noopener noreferrer">
+                Ver Atlas Tree
+            </a>
+        </div>
+
+      <!-- LADO DIREITO (TODOS OS SCARABS) -->
+
+        <div class="card-side">
+
+            <!-- ITEM 1 -->
+            <div class="consumable-item">
+                <div class="icon-wrapper" data-qty="3">
+                    <img src="scarabs/Legion_Scarab_inventory_icon.png">
+                    <span class="item-quantity">3</span>
+                </div>
+
+                <div class="consumable-content">
+                    <span class="consumable-name">
+                        Legion Scarab
+                        <span class="info-icon" data-tooltip="scarab-1">ⓘ</span>
+                    </span>
+
+                    <span class="consumable-short">
+                        Área tem mais um Monolito
+                    </span>
+                </div>
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="consumable-item">
+                <div class="icon-wrapper" data-qty="1">
+                    <img src="scarabs/Legion_Scarab_of_Officers_inventory_icon.png">
+                    <span class="item-quantity">1</span>
+                </div>
+
+                <div class="consumable-content">
+                    <span class="consumable-name">
+                        Legion Scarab of Officers
+                        <span class="info-icon" data-tooltip="scarab-2">ⓘ</span>
+                    </span>
+
+                    <span class="consumable-short">
+                        Área tem mais 5 Sargentos
+                    </span>
+                </div>
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="consumable-item">
+                <div class="icon-wrapper" data-qty="1">
+                    <img src="scarabs/Legion_Scarab_of_Treasures_inventory_icon.png">
+                    <span class="item-quantity">1</span>
+                </div>
+
+                <div class="consumable-content">
+                    <span class="consumable-name">
+                        Legion Scarab of Treasures
+                        <span class="info-icon" data-tooltip="scarab-3">ⓘ</span>
+                    </span>
+
+                    <span class="consumable-short">
+                        Baús espalham recompensas
+                    </span>
+                </div>
+            </div>
+
+        </div>
+
     </div>
-
-    <div class="requirements">
-        <strong>Recomendado para builds com:</strong>
-        <span class="tag mobility">Alta Mobilidade</span>
-        <span class="tag clear">Clear Speed</span>
-        <span class="tag squishy">Squishy/Frágil</span>
-    </div>
-
-    <div class="description">
-        Farm de Legion, exige movimentação rápida e dano em área. <br>
-        Super recomendado ter Headhunter.
-    </div>
-
-    <div class="links">
-        <a href="https://poeplanner.com/a/6JxE" target="_blank">
-            Ver Atlas Tree
-        </a>
-    </div>
-
-</li>
 
 </div>
+
+<!-- TOOLTIPS -->
+<div class="tooltip-box" id="scarab-1">
+    Adiciona mais um Monolito de Legion na área.
+</div>
+
+<div class="tooltip-box" id="scarab-2">
+    Facções da Legion têm mais 5 Sargentos no mapa.
+</div>
+
+<div class="tooltip-box" id="scarab-3">
+    Baús de Legion têm 20% de chance de espalhar recompensas para monstros próximos.
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
